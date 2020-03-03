@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TranslateText name ="EngToUa">
+  <SourceLanguage>Англійська</SourceLanguage>
+  <TargetLanguage>Українська</TargetLanguage>
+  <SourceText>Hello</SourceText>
+  <CharactersCount>5</CharactersCount>
+  <TargetText>Привіт</TargetText>
+</TranslateText>

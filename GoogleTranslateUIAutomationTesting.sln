@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleTranslateTAFramework", "GoogleTranslateUIAutomationTesting\GoogleTranslateTAFramework.csproj", "{FE689921-2149-4272-A706-FF39B28BD839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleTranslateTests", "GoogleTranslateTests\GoogleTranslateTests.csproj", "{C1B94C8C-BCD4-4123-83E8-7332ECF7DBED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE689921-2149-4272-A706-FF39B28BD839} = {FE689921-2149-4272-A706-FF39B28BD839}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE689921-2149-4272-A706-FF39B28BD839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE689921-2149-4272-A706-FF39B28BD839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE689921-2149-4272-A706-FF39B28BD839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE689921-2149-4272-A706-FF39B28BD839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B94C8C-BCD4-4123-83E8-7332ECF7DBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B94C8C-BCD4-4123-83E8-7332ECF7DBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B94C8C-BCD4-4123-83E8-7332ECF7DBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B94C8C-BCD4-4123-83E8-7332ECF7DBED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD635716-D302-4D7B-AB79-0175CED4B13F}
+	EndGlobalSection
+EndGlobal
